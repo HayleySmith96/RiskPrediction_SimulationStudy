@@ -14,12 +14,12 @@ Compare prognostic predictive performance of several risk prediction methods, in
 Real data used to simulate data = Rotterdam German Breast Cancer dataset (sample = 2982, covariates = 9).
 
 Data is generated from:
-• Cox Proportional Hazards Model (Cox)
-• Flexible Parametric Model (FP)
-• Multivariable Fractional Polynomial (MFP)
-• Random Survival Forest (RSF)
-• Cox-CC Neural Network (CoxCC)
-• Cox-Time Neural Network (CoxTime)
+	* Cox Proportional Hazards Model (Cox)
+	* Flexible Parametric Model (FP)
+	* Multivariable Fractional Polynomial (MFP)
+	* Random Survival Forest (RSF)
+	* Cox-CC Neural Network (CoxCC)
+	* Cox-Time Neural Network (CoxTime)
 
 Training sample sizes = 500, 1000, 2000, 2982
 Testing sample size = 2982
@@ -29,25 +29,25 @@ Repetitions = 2000
 
 # Estimand
 
-Survival probability at t years, where t = 1, 5, 10, 14 years. 
+Survival probability at t years, where t = 1, 5, 10, and 14 years. 
 
 
 # Methods Compared
 
-Cox Proportional Hazards Model (Cox)
-Flexible Parametric Model (FP)
-Multivariable Fractional Polynomial (MFP)
-Random Survival Forest (RSF)
-Cox-CC Neural Network (CoxCC)
-Cox-Time Neural Network (CoxTime)
+* Cox Proportional Hazards Model (Cox)
+* Flexible Parametric Model (FP)
+* Multivariable Fractional Polynomial (MFP)
+* Random Survival Forest (RSF)
+* Cox-CC Neural Network (CoxCC)
+* Cox-Time Neural Network (CoxTime)
 
 
 # Performance Measures
 
-Brier Score (calibration)
-Mean Absolute Error (calibration)
-Time-Dependent AUC (discrimination)
-Variance, Standard Deviation, and MCSE (variance)
+* Brier Score (calibration)
+* Mean Absolute Error (calibration)
+* Time-Dependent AUC (discrimination)
+* Variance, Standard Deviation, and MCSE (variance)
 
 
 ## Generating the Simulated Datasets
@@ -71,9 +71,9 @@ Simulation_Script.R contains the methods to fit each of the models to the simula
 
 Performance_Measures.R contains the methods to calculate the AUC, Brier Score, Mean Absolute Error (MAE), and Mean Squared Error (MSE). 
 
-Each method (Cox, FP, MFP, RSF, CoxCC, and CoxTime) can be run for all of the DGMs or for each of the DGMs seperately. The R code is provided for both of these approaches. 
+Each method (Cox, FP, MFP, RSF, CoxCC, and CoxTime) can be ran for all of the DGMs or for each of the DGMs seperately. The R code is provided for both of these approaches. 
 
-If running the CoxCC and CoxTime methods for multiple DGMs simultaneously, they must be run in seperate folders to avoid issues with saving the weightcheckpoint files.
+If running the CoxCC and CoxTime methods for multiple DGMs simultaneously, they must be ran in seperate folders to avoid issues with saving the weightcheckpoint files.
 
 NOTE: Python virtual environment file paths must be changed to the path of your virtual environment in the CoxCC and CoxTime files. 
 
