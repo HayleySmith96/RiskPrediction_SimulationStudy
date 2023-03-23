@@ -14,12 +14,12 @@ Compare prognostic predictive performance of several risk prediction methods, in
 Real data used to simulate data = Rotterdam German Breast Cancer dataset (sample = 2982, covariates = 9).
 
 Data is generated from:
-	* Cox Proportional Hazards Model (Cox)
-	* Flexible Parametric Model (FP)
-	* Multivariable Fractional Polynomial (MFP)
-	* Random Survival Forest (RSF)
-	* Cox-CC Neural Network (CoxCC)
-	* Cox-Time Neural Network (CoxTime)
+* Cox Proportional Hazards Model (Cox)
+* Flexible Parametric Model (FP)
+* Multivariable Fractional Polynomial (MFP)
+* Random Survival Forest (RSF)
+* Cox-CC Neural Network (CoxCC)
+* Cox-Time Neural Network (CoxTime)
 
 Training sample sizes = 500, 1000, 2000, 2982
 Testing sample size = 2982
