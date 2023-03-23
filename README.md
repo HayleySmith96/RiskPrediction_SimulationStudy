@@ -4,9 +4,9 @@ Code for simulation study comparing statistical and machine learning approaches 
 # Aim
 
 Compare prognostic predictive performance of several risk prediction methods, in terms of calibration and discrimination, with:
-• Different DGMs
-• Short, medium, and long follow-up times
-• Various training sample sizes
+* Different DGMs
+* Short, medium, and long follow-up times
+* Various training sample sizes
 
 
 # Data
@@ -77,5 +77,3 @@ If running the CoxCC and CoxTime methods for multiple DGMs simultaneously, they 
 
 NOTE: Python virtual environment file paths must be changed to the path of your virtual environment in the CoxCC and CoxTime files. 
 
-
-## Simulation Results
